@@ -157,6 +157,11 @@ Com a tomada **desligada da parede**:
 
 ### Servidor MQTT — Orange Pi (`mqtt_server.py`)
 
+Para criar um arquivo Python no Orange Pi via SSH, use o editor nano:
+```bash
+nano mqtt_server.py
+```
+
 ```python
 import paho.mqtt.client as mqtt
 import OPi.GPIO as GPIO
